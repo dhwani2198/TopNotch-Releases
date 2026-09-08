@@ -1,15 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
-  <title id="title">TopNotch blue start alert</title><desc id="desc">Vector mock-up of a MacBook notch outlined with the blue TopNotch event-start glow.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">TopNotch event-start light on a MacBook</title>
+  <desc id="desc">Figma-style MacBook render showing the closed TopNotch notch traced by its bright blue meeting and event start light.</desc>
   <defs>
-    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#c8d8e8"/><stop offset=".5" stop-color="#dbe5ed"/><stop offset="1" stop-color="#b9cadb"/></linearGradient>
-    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#0e7dea"/><stop offset=".48" stop-color="#35a6ff"/><stop offset="1" stop-color="#0a73e8"/></linearGradient>
-    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="13" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="soft" x="-50%" y="-80%" width="200%" height="260%"><feGaussianBlur stdDeviation="24"/></filter>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111e"/><stop offset=".47" stop-color="#101927"/><stop offset="1" stop-color="#030609"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e0e3e7"/><stop offset=".4" stop-color="#999ea5"/><stop offset="1" stop-color="#44484e"/></linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#27292e"/><stop offset=".08" stop-color="#101114"/><stop offset="1" stop-color="#050506"/></linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bbc0c7"/><stop offset=".38" stop-color="#787d84"/><stop offset="1" stop-color="#30343a"/></linearGradient>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1e35"/><stop offset=".47" stop-color="#1b5b94"/><stop offset=".72" stop-color="#604cb4"/><stop offset="1" stop-color="#101424"/></linearGradient>
+    <radialGradient id="sky" cx="58%" cy="20%" r="68%"><stop stop-color="#48b5ff" stop-opacity=".57"/><stop offset=".54" stop-color="#177ad4" stop-opacity=".16"/><stop offset="1" stop-color="#07111c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2=".25"><stop stop-color="#087be9"/><stop offset=".46" stop-color="#39aaff"/><stop offset="1" stop-color="#0879ed"/></linearGradient>
+    <clipPath id="screenClip"><rect x="130" y="77" width="940" height="510" rx="10"/></clipPath>
+    <filter id="deviceShadow" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".68"/></filter>
+    <filter id="halo" x="-55%" y="-80%" width="210%" height="270%"><feGaussianBlur stdDeviation="11" result="blurred"/><feMerge><feMergeNode in="blurred"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="outerHalo" x="-75%" y="-120%" width="250%" height="340%"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="32"/></filter>
   </defs>
-  <rect width="1000" height="300" rx="30" fill="#08101a"/>
-  <rect x="34" y="34" width="932" height="186" rx="22" fill="url(#bar)"/>
-  <path d="M342 33h316v80c0 24-20 44-44 44H386c-24 0-44-20-44-44V33Z" fill="none" stroke="#0a86f5" stroke-width="24" opacity=".5" filter="url(#soft)"/>
-  <path d="M342 33h316v80c0 24-20 44-44 44H386c-24 0-44-20-44-44V33Z" fill="#000" stroke="url(#edge)" stroke-width="7" filter="url(#glow)"/>
-  <g transform="translate(618 72)" fill="none" stroke="#168ff4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 10l22-10 22 10-22 8-22-8Z"/><path d="M8 14v12c9 7 19 7 28 0V14"/><path d="M44 10v14"/></g>
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="middle"><text x="500" y="254" fill="#fff" font-size="19" font-weight="750">A meeting or event just started</text><text x="500" y="280" fill="#8fa8bf" font-size="15" font-weight="600">A brief accent glow—visible even while TopNotch is closed.</text></g>
+
+  <rect width="1200" height="720" fill="url(#canvas)"/>
+  <ellipse cx="600" cy="668" rx="500" ry="27" fill="#000" opacity=".7" filter="url(#softBlur)"/>
+  <g filter="url(#deviceShadow)">
+    <rect x="92" y="38" width="1016" height="586" rx="32" fill="url(#metal)"/>
+    <rect x="104" y="50" width="992" height="562" rx="24" fill="url(#bezel)"/>
+    <circle cx="600" cy="63" r="3.2" fill="#263342"/><circle cx="600" cy="63" r="1.2" fill="#79b9df" opacity=".52"/>
+    <g clip-path="url(#screenClip)">
+      <rect x="130" y="77" width="940" height="510" fill="url(#wallpaper)"/>
+      <rect x="130" y="77" width="940" height="510" fill="url(#sky)"/>
+      <path d="M130 470c122-90 229-80 335-5 87 62 157 68 251-13 113-98 225-74 354 4v131H130Z" fill="#101522" fill-opacity=".83"/>
+      <path d="M130 518c121-58 218-46 306 6 115 68 212 60 299-6 98-74 206-61 335 3v66H130Z" fill="#080c13" fill-opacity=".86"/>
+      <rect x="130" y="77" width="940" height="34" fill="#070a0f" fill-opacity=".76"/>
+      <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#f5f6f8" font-size="11" font-weight="650"><text x="151" y="99">Finder</text><text x="198" y="99">File</text><text x="229" y="99">Edit</text><text x="263" y="99">View</text><text x="302" y="99">Go</text><text x="329" y="99">Window</text><text x="378" y="99">Help</text></g>
+      <text x="1047" y="99" fill="#f5f6f8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" text-anchor="end">Tue Sep 8   12:06 PM</text>
+      <g opacity=".88"><rect x="905" y="196" width="78" height="78" rx="18" fill="#e5e9ef"/><rect x="918" y="210" width="52" height="42" rx="9" fill="#fff"/><rect x="918" y="210" width="52" height="11" rx="7" fill="#ee5a56"/><text x="944" y="244" fill="#1a1d22" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="750" text-anchor="middle">8</text><text x="944" y="291" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="650" text-anchor="middle">Calendar</text></g>
+
+      <path d="M472 77h256v63c0 20-16 36-36 36H508c-20 0-36-16-36-36Z" fill="none" stroke="#168ff4" stroke-width="23" opacity=".54" filter="url(#outerHalo)"/>
+      <path d="M472 77h256v63c0 20-16 36-36 36H508c-20 0-36-16-36-36Z" fill="#000" stroke="url(#edge)" stroke-width="6" filter="url(#halo)"/>
+      <g transform="translate(684 111) scale(.68)" stroke="#168ff4" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M-27-5L0-21 27-5M-23 1L0-13 23 1M-27-5h5M22-5h5"/>
+        <circle cx="-10" cy="8" r="5" fill="#168ff4" stroke="none"/><circle cx="10" cy="8" r="5" fill="#168ff4" stroke="none"/>
+        <path d="M0 5v18M-14 20c4 13 21 15 28 1 3-6 0-10-6-10"/>
+      </g>
+    </g>
+    <path d="M72 620h1056l-76 54c-10 7-22 11-35 11H183c-13 0-25-4-35-11Z" fill="url(#base)"/>
+    <path d="M72 620h1056l-16 12H88Z" fill="#e2e5e9" opacity=".72"/>
+    <path d="M517 620h166c-2 11-12 17-25 17H542c-13 0-23-6-25-17Z" fill="#5e636a" opacity=".72"/>
+    <path d="M183 685h834c-15 6-45 9-78 9H261c-33 0-63-3-78-9Z" fill="#17191d"/>
+  </g>
 </svg>

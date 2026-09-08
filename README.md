@@ -4,7 +4,7 @@
 
 ### Your day, meetings, and talking points—right beside the MacBook notch.
 
-TopNotch turns the space around your notch into a focused command center for calendars, video calls, and the moments that matter next.
+**v1.0 · September 2026**
 
 [**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
@@ -14,28 +14,32 @@ Apple Silicon · macOS 15+
 
 ---
 
-## Your day, without breaking focus
+## Introducing TopNotch
 
-See meetings and events in one glance, jump into the right Google Meet, Zoom, or Microsoft Teams call, keep notes nearby, and check the day ahead—all without opening another full-size app.
+Your calendar already knows what is next. TopNotch makes that information useful at the exact place you naturally look for it: the top of your screen.
+
+TopNotch lives around the MacBook notch and stays quiet until you hover. Open it to see your day, join the right call, schedule what comes next, or pull up the notes you want beside you. On Macs without a hardware notch, the same experience lives in a compact floating pill.
+
+**Version 1.0** brings Apple, Google, and Microsoft calendars together with Google Meet, Zoom, and Microsoft Teams—plus a Prompter and a brief blue signal when it is time to join.
 
 <p align="center">
-  <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="800">
+  <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="760">
 </p>
 
-## From idea to invite in seconds
+## Create the next thing in seconds
 
 Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
 
 <p align="center">
-  <img src="assets/topnotch-schedule.svg" alt="Figma-style TopNotch scheduling mock-up with a blue Create meeting action" width="720">
+  <img src="assets/topnotch-schedule.svg" alt="Figma-style TopNotch scheduling mock-up with a blue Create meeting action" width="760">
 </p>
 
-## Keep your talking points on screen
+## Keep your talking points in view
 
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid-glass window during a call, then close it back into the notch when you are done.
 
 <p align="center">
-  <img src="assets/topnotch-prompter.svg" alt="Figma-style TopNotch Prompter mock-up detached as a compact liquid-glass window" width="620">
+  <img src="assets/topnotch-prompter.svg" alt="Figma-style MacBook render showing the TopNotch liquid-glass Prompter during a video meeting" width="760">
 </p>
 
 ## Know exactly when it is time
@@ -43,10 +47,10 @@ Prompter saves notes and reminders inside TopNotch, with history available throu
 When a meeting, event, or task starts, TopNotch briefly traces the notch with the selected accent color. The blue start alert is visible without keeping the dashboard open—and disappears after the moment has passed.
 
 <p align="center">
-  <img src="assets/topnotch-start-alert.svg" alt="Figma-style TopNotch mock-up showing a bright blue event-start glow around the closed MacBook notch" width="640">
+  <img src="assets/topnotch-start-alert.svg" alt="Figma-style MacBook render showing the TopNotch blue event-start glow and real app logo around the closed notch" width="760">
 </p>
 
-## Made for the calendars and calls you already use
+## Everything connected in v1.0
 
 | Calendars | Meetings | Contacts and notes |
 | --- | --- | --- |
