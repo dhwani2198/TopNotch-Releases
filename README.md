@@ -7,6 +7,7 @@ Dhwani Shah
 I built TopNotch because I kept alt-tabbing away from whatever I was doing just to check what meeting was next. It sits in the area around the MacBook notch — a floating pill if your Mac doesn’t have one — and stays out of the way until you hover over it. Open it and you get today’s calendar, a button to join whatever’s next, a way to schedule something new, and a place to keep notes you want in front of you during a call.
 
 v1.0 · September 2026
+
 Apple Silicon · macOS 15+
 
 [**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
