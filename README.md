@@ -13,14 +13,15 @@ Apple Silicon · macOS 15+
 
 One thing up front: this repo is releases and docs only. The app itself — the Swift, the backend, all of it — lives in a private repo and isn’t open source right now. Ask me anything about how it works, I just can’t hand you the code.
 
+## Create the next thing in seconds
+
+Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
+
 
 <p align="center">
   <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="760">
 </p>
 
-## Create the next thing in seconds
-
-Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
 
 <p align="center">
   <img src="assets/topnotch-schedule.svg" alt="Figma-style TopNotch scheduling mock-up with a blue Create meeting action" width="760">
