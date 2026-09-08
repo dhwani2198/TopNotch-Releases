@@ -2,6 +2,18 @@
 
 Official downloads for TopNotch, a macOS menu-bar calendar and meeting companion.
 
+## Preview
+
+See your day, join meetings, keep talking points nearby, and schedule a new call directly from the MacBook notch.
+
+<p align="center">
+  <img src="assets/topnotch-overview.png" alt="TopNotch expanded dashboard with calendar, meetings, Prompter, mini calendar, and mirror" width="900">
+</p>
+
+<p align="center">
+  <img src="assets/topnotch-schedule.png" alt="TopNotch meeting scheduling view" width="900">
+</p>
+
 ## Download
 
 Download the newest Apple Silicon DMG from [Releases](https://github.com/dhwani2198/TopNotch-Releases/releases/latest).
