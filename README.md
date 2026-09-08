@@ -38,18 +38,6 @@ Create a meeting, event, or task from the notch. Choose a connected calendar, ad
 
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid-glass window during a call, then close it back into the notch when you are done.
 
-<p align="center">
-  <img src="assets/topnotch-prompter.svg" alt="Figma-style MacBook render showing the TopNotch liquid-glass Prompter during a video meeting" width="760">
-</p>
-
-## Know exactly when it is time
-
-When a meeting, event, or task starts, TopNotch briefly traces the notch with the selected accent color. The blue start alert is visible without keeping the dashboard open—and disappears after the moment has passed.
-
-<p align="center">
-  <img src="assets/topnotch-start-alert.svg" alt="Figma-style MacBook render showing the TopNotch blue event-start glow and real app logo around the closed notch" width="760">
-</p>
-
 ## Everything connected in v1.0
 
 | Calendars | Meetings | Contacts and notes |
