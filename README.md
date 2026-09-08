@@ -2,11 +2,7 @@
 
 # TopNotch
 
-### Your day, meetings, and talking points—right beside the MacBook notch.
-
 **v1.0 · September 2026**
-
-[**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
 Apple Silicon · macOS 15+
 
@@ -15,12 +11,15 @@ Apple Silicon · macOS 15+
 ---
 
 ## Introducing TopNotch
+I built TopNotch because I kept alt-tabbing away from whatever I was doing just to check what meeting was next. It sits in the area around the MacBook notch — a floating pill if your Mac doesn’t have one — and stays out of the way until you hover over it. Open it and you get today’s calendar, a button to join whatever’s next, a way to schedule something new, and a place to keep notes you want in front of you during a call.
 
-Your calendar already knows what is next. TopNotch makes that information useful at the exact place you naturally look for it: the top of your screen.
+v1.0 · September 2026
+Apple Silicon · macOS 15+
 
-TopNotch lives around the MacBook notch and stays quiet until you hover. Open it to see your day, join the right call, schedule what comes next, or pull up the notes you want beside you. On Macs without a hardware notch, the same experience lives in a compact floating pill.
+[**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
-**Version 1.0** brings Apple, Google, and Microsoft calendars together with Google Meet, Zoom, and Microsoft Teams—plus a Prompter and a brief blue signal when it is time to join.
+One thing up front: this repo is releases and docs only. The app itself — the Swift, the backend, all of it — lives in a private repo and isn’t open source right now. Ask me anything about how it works, I just can’t hand you the code.
+
 
 <p align="center">
   <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="760">
@@ -38,17 +37,31 @@ Create a meeting, event, or task from the notch. Choose a connected calendar, ad
 
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid-glass window during a call, then close it back into the notch when you are done.
 
-## Everything connected in v1.0
+## Integrations in v1.0
 
-| Calendars | Meetings | Contacts and notes |
-| --- | --- | --- |
-| Apple Calendar | Google Meet | Apple Contacts |
-| Google Calendar | Zoom | Google Contacts |
-| Outlook Calendar | Microsoft Teams | Microsoft Contacts and Apple Notes |
+| Calendars        | Meetings        | Contacts             | Notes                    |
+| ----------------- | --------------- | --------------------- | ------------------------ |
+| Apple Calendar    | Google Meet     | Apple Contacts         | Apple Notes (via Prompter) |
+| Google Calendar   | Zoom            | Google Contacts        |                           |
+| Outlook Calendar  | Microsoft Teams | Microsoft Contacts     |                           |
+
+When a meeting is close, the notch gives a short blue signal so you know it's time to join — you don't have to have the panel open to catch it.
+
+## Creating something new
+
+From the notch: pick which connected calendar it goes on, add guests straight from your synced contacts, and attach Google Meet, Zoom, Teams, or no call at all. It's a meeting, an event, or a task — same flow for all three.
+
+## Prompter
+
+This is the notes feature. Whatever you jot down in Prompter syncs with Apple Notes, so the history isn't locked inside the app. During a call you can pull it out into its own small floating window, then tuck it back into the notch when you're done.
+
+## How the integrations actually work
+
+I can't show you the source, but here's the part that matters if you're wondering how this is built: no API keys or OAuth secrets ship inside the app bundle. Every calendar and meeting connection goes through a hosted service I run — the app talks to that service, the service holds the credentials. That's also why there's no self-hosting path right now; the app isn't built to run those integrations on its own.
 
 ## Download
 
-Download the newest Apple Silicon DMG from [**GitHub Releases**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest).
+Grab the DMG from [**GitHub Releases**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest).
 
 TopNotch currently supports M-series Macs running macOS 15 or newer. Intel Macs are not supported.
 
@@ -59,13 +72,7 @@ TopNotch currently supports M-series Macs running macOS 15 or newer. Intel Macs 
 3. Open TopNotch from Applications.
 4. Because this beta is not Apple-notarized, macOS may block the first launch. Open **System Settings → Privacy & Security**, find the TopNotch message, and click **Open Anyway**.
 
-Only download TopNotch from this repository. Each release includes a SHA-256 checksum for verifying the DMG.
-
-## Privacy and source code
-
-This public repository contains downloads and release documentation only. TopNotch's proprietary application and backend source code are maintained separately in a private repository and are not published here.
-
-TopNotch uses its hosted integration service to connect meeting providers without embedding private server API keys in the application bundle.
+Only pull builds from this repo. Every release ships a SHA-256 checksum so you can verify the DMG matches what I actually built.
 
 ## Support
 
