@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">TopNotch blue start alert</title><desc id="desc">Vector mock-up of a MacBook notch outlined with the blue TopNotch event-start glow.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#c8d8e8"/><stop offset=".5" stop-color="#dbe5ed"/><stop offset="1" stop-color="#b9cadb"/></linearGradient>
+    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#0e7dea"/><stop offset=".48" stop-color="#35a6ff"/><stop offset="1" stop-color="#0a73e8"/></linearGradient>
+    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="13" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-80%" width="200%" height="260%"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1000" height="300" rx="30" fill="#08101a"/>
+  <rect x="34" y="34" width="932" height="186" rx="22" fill="url(#bar)"/>
+  <path d="M342 33h316v80c0 24-20 44-44 44H386c-24 0-44-20-44-44V33Z" fill="none" stroke="#0a86f5" stroke-width="24" opacity=".5" filter="url(#soft)"/>
+  <path d="M342 33h316v80c0 24-20 44-44 44H386c-24 0-44-20-44-44V33Z" fill="#000" stroke="url(#edge)" stroke-width="7" filter="url(#glow)"/>
+  <g transform="translate(618 72)" fill="none" stroke="#168ff4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 10l22-10 22 10-22 8-22-8Z"/><path d="M8 14v12c9 7 19 7 28 0V14"/><path d="M44 10v14"/></g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="middle"><text x="500" y="254" fill="#fff" font-size="19" font-weight="750">A meeting or event just started</text><text x="500" y="280" fill="#8fa8bf" font-size="15" font-weight="600">A brief accent glow—visible even while TopNotch is closed.</text></g>
+</svg>

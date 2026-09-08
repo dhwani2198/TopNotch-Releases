@@ -19,7 +19,7 @@ Apple Silicon · macOS 15+
 See meetings and events in one glance, jump into the right Google Meet, Zoom, or Microsoft Teams call, keep notes nearby, and check the day ahead—all without opening another full-size app.
 
 <p align="center">
-  <img src="assets/topnotch-overview.png" alt="TopNotch dashboard showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="1100">
+  <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="800">
 </p>
 
 ## From idea to invite in seconds
@@ -27,7 +27,7 @@ See meetings and events in one glance, jump into the right Google Meet, Zoom, or
 Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
 
 <p align="center">
-  <img src="assets/topnotch-schedule.png" alt="TopNotch scheduling interface with a blue Create meeting action" width="1100">
+  <img src="assets/topnotch-schedule.svg" alt="Figma-style TopNotch scheduling mock-up with a blue Create meeting action" width="720">
 </p>
 
 ## Keep your talking points on screen
@@ -35,7 +35,7 @@ Create a meeting, event, or task from the notch. Choose a connected calendar, ad
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid-glass window during a call, then close it back into the notch when you are done.
 
 <p align="center">
-  <img src="assets/topnotch-prompter.png" alt="TopNotch Prompter detached as a compact liquid-glass window on the Mac desktop" width="900">
+  <img src="assets/topnotch-prompter.svg" alt="Figma-style TopNotch Prompter mock-up detached as a compact liquid-glass window" width="620">
 </p>
 
 ## Know exactly when it is time
@@ -43,7 +43,7 @@ Prompter saves notes and reminders inside TopNotch, with history available throu
 When a meeting, event, or task starts, TopNotch briefly traces the notch with the selected accent color. The blue start alert is visible without keeping the dashboard open—and disappears after the moment has passed.
 
 <p align="center">
-  <img src="assets/topnotch-start-alert.png" alt="TopNotch showing a bright blue event-start glow around the closed MacBook notch" width="900">
+  <img src="assets/topnotch-start-alert.svg" alt="Figma-style TopNotch mock-up showing a bright blue event-start glow around the closed MacBook notch" width="640">
 </p>
 
 ## Made for the calendars and calls you already use

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+  <title id="title">TopNotch floating Prompter</title><desc id="desc">Vector mock-up of a liquid-glass Prompter window floating beside a video meeting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071728"/><stop offset=".52" stop-color="#111723"/><stop offset="1" stop-color="#02060c"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcecff" stop-opacity=".33"/><stop offset=".5" stop-color="#9fb0c8" stop-opacity=".18"/><stop offset="1" stop-color="#6b7f9c" stop-opacity=".28"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#138df5" stop-opacity=".35"/><stop offset="1" stop-color="#138df5" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dy="20" stdDeviation="24" flood-color="#000" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="1000" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="780" cy="115" r="250" fill="url(#halo)" filter="url(#blur)"/>
+  <g opacity=".46"><rect x="70" y="90" width="340" height="190" rx="24" fill="#263448"/><rect x="70" y="310" width="230" height="190" rx="24" fill="#182434"/><circle cx="165" cy="405" r="54" fill="#304059"/><rect x="324" y="310" width="270" height="190" rx="24" fill="#162131"/></g>
+  <g filter="url(#shadow)">
+    <rect x="430" y="92" width="500" height="416" rx="28" fill="url(#glass)" stroke="#dbe8fa" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M430 120c0-15 13-28 28-28h444c15 0 28 13 28 28v54H430v-54Z" fill="#d7e6f7" fill-opacity=".08"/>
+    <text x="462" y="143" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22">▰</text>
+    <text x="498" y="143" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="750">Prompter</text>
+    <text x="853" y="143" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25">⇩</text>
+    <text x="891" y="143" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28">×</text>
+    <rect x="454" y="174" width="452" height="266" rx="20" fill="#0a111b" fill-opacity=".28"/>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+      <text x="478" y="214" fill="#fff" font-size="18" font-weight="700">Design review</text>
+      <text x="478" y="254" fill="#eef4fb" font-size="17">• Confirm the rollout timeline</text>
+      <text x="478" y="290" fill="#eef4fb" font-size="17">• Ask for feedback on the new flow</text>
+      <text x="478" y="326" fill="#eef4fb" font-size="17">• Share owners and next steps</text>
+      <text x="454" y="478" fill="#e4eaf2" fill-opacity=".75" font-size="15" font-weight="600">Autosaved in TopNotch</text>
+      <text x="852" y="478" fill="#fff" font-size="16" font-weight="700">New</text>
+    </g>
+  </g>
+</svg>

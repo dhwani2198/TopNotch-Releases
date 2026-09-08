@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Schedule with TopNotch</title><desc id="desc">Vector mock-up of TopNotch scheduling a Google Meet from an Apple calendar.</desc>
+  <defs><linearGradient id="blue" x1="0" x2="1"><stop stop-color="#0a8cf5"/><stop offset="1" stop-color="#3277e4"/></linearGradient><filter id="shadow"><feDropShadow dy="18" stdDeviation="20" flood-opacity=".5"/></filter></defs>
+  <rect width="1200" height="650" rx="36" fill="#050505" filter="url(#shadow)"/>
+  <path d="M460 0h280v24c0 18-15 32-33 32H493c-18 0-33-14-33-32V0Z" fill="#000"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="54" y="112" fill="#fff" font-size="28">‹</text><text x="88" y="112" fill="#fff" font-size="28" font-weight="700">Schedule meeting</text>
+    <g fill="#111" stroke="#343437"><rect x="54" y="138" width="1092" height="44" rx="10"/><rect x="158" y="205" width="410" height="44" rx="10"/><rect x="704" y="205" width="442" height="44" rx="10"/><rect x="158" y="270" width="410" height="44" rx="10"/><rect x="704" y="270" width="442" height="44" rx="10"/><rect x="54" y="335" width="292" height="44" rx="10"/><rect x="465" y="335" width="681" height="44" rx="10"/><rect x="54" y="400" width="1092" height="44" rx="10"/><rect x="54" y="465" width="1092" height="44" rx="10"/></g>
+    <g fill="#fff" font-size="20" font-weight="650"><text x="54" y="234">Calendar</text><text x="590" y="234">Video</text><text x="54" y="299">Type</text><text x="590" y="299">Category</text><text x="368" y="364">Duration</text></g>
+    <g fill="#efeff1" font-size="20" font-weight="600"><text x="176" y="234">Work Calendar · Apple</text><text x="722" y="234">Google Meet</text><text x="176" y="299">Meeting</text><text x="722" y="299">None</text><text x="72" y="364">Sep 8, 12:30 PM</text><text x="483" y="364">30 min</text></g>
+    <g fill="#9a9aa0" font-size="19"><text x="72" y="167">Meeting title</text><text x="72" y="429">Guests (type a name or email)</text><text x="72" y="494">Notes</text></g>
+    <g fill="#bbb" font-size="18"><text x="540" y="234">⌄</text><text x="1116" y="234">⌄</text><text x="540" y="299">⌄</text><text x="1116" y="299">⌄</text><text x="1116" y="364">⌄</text></g>
+    <rect x="54" y="531" width="18" height="18" rx="4" fill="#333"/><path d="M58 539l4 5 8-11" fill="none" stroke="#aaa" stroke-width="3"/><text x="84" y="547" fill="#fff" font-size="17" font-weight="600">Send calendar invitations</text>
+    <rect x="54" y="574" width="1092" height="54" rx="14" fill="url(#blue)"/><text x="516" y="609" fill="#fff" font-size="19" font-weight="750">▦  Create meeting</text>
+  </g>
+</svg>
