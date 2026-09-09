@@ -13,16 +13,6 @@ One thing up front: this repo is releases and docs only. The app itself, the Swi
 
 Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
 
-
-<p align="center">
-  <img src="assets/topnotch-overview.svg" alt="Figma-style TopNotch dashboard mock-up showing meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="760">
-</p>
-
-
-<p align="center">
-  <img src="assets/topnotch-schedule.svg" alt="Figma-style TopNotch scheduling mock-up with a blue Create meeting action" width="760">
-</p>
-
 ## Keep your talking points in view
 
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid glass window during a call, then close it back into the notch when you are done.
