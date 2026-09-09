@@ -7,15 +7,27 @@ Apple Silicon · macOS 15+
 
 [**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
+<p align="center">
+  <img src="assets/topnotch-overview.svg" alt="Full MacBook prototype showing TopNotch expanded from the physical notch with meetings, events, Prompter, mini calendar, mirror, and blue meeting controls" width="760">
+</p>
+
 One thing up front: this repo is releases and docs only. The app itself, the Swift, the backend, all of it lives in a private repo and isn’t open source right now. Ask me anything about how it works, I just can’t hand you the code.
 
 ## Create the next thing in seconds
 
 Create a meeting, event, or task from the notch. Choose a connected calendar, add guests from your contacts, and attach Google Meet, Zoom, Microsoft Teams, or no video call at all.
 
+<p align="center">
+  <img src="assets/topnotch-schedule.svg" alt="Full MacBook prototype showing the TopNotch scheduling screen expanding from the physical notch" width="760">
+</p>
+
 ## Keep your talking points in view
 
 Prompter saves notes and reminders inside TopNotch, with history available through Apple Notes. Pull it out into a compact liquid glass window during a call, then close it back into the notch when you are done.
+
+<p align="center">
+  <img src="assets/topnotch-prompter.svg" alt="Full MacBook prototype showing the TopNotch liquid-glass Prompter during a video meeting" width="760">
+</p>
 
 ## Integrations in v1.0
 
@@ -26,6 +38,10 @@ Prompter saves notes and reminders inside TopNotch, with history available throu
 | Outlook Calendar  | Microsoft Teams | Microsoft Contacts     |                           |
 
 When a meeting is close, the notch gives a short blue signal so you know it's time to join, you don't have to have the panel open to catch it.
+
+<p align="center">
+  <img src="assets/topnotch-start-alert.svg" alt="Full MacBook prototype showing the TopNotch blue event-start glow and app logo around the closed notch" width="760">
+</p>
 
 ## Creating something new
 

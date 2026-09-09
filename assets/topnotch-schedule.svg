@@ -1,16 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
-  <title id="title">Schedule with TopNotch</title><desc id="desc">Vector mock-up of TopNotch scheduling a Google Meet from an Apple calendar.</desc>
-  <defs><linearGradient id="blue" x1="0" x2="1"><stop stop-color="#0a8cf5"/><stop offset="1" stop-color="#3277e4"/></linearGradient><filter id="shadow"><feDropShadow dy="18" stdDeviation="20" flood-opacity=".5"/></filter></defs>
-  <rect width="1200" height="650" fill="#050505"/>
-  <path d="M460 0h280v24c0 18-15 32-33 32H493c-18 0-33-14-33-32V0Z" fill="#000"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <text x="54" y="112" fill="#fff" font-size="28">‹</text><text x="88" y="112" fill="#fff" font-size="28" font-weight="700">Schedule meeting</text>
-    <g fill="#111" stroke="#343437"><rect x="54" y="138" width="1092" height="44" rx="10"/><rect x="158" y="205" width="410" height="44" rx="10"/><rect x="704" y="205" width="442" height="44" rx="10"/><rect x="158" y="270" width="410" height="44" rx="10"/><rect x="704" y="270" width="442" height="44" rx="10"/><rect x="54" y="335" width="292" height="44" rx="10"/><rect x="465" y="335" width="681" height="44" rx="10"/><rect x="54" y="400" width="1092" height="44" rx="10"/><rect x="54" y="465" width="1092" height="44" rx="10"/></g>
-    <g fill="#fff" font-size="20" font-weight="650"><text x="54" y="234">Calendar</text><text x="590" y="234">Video</text><text x="54" y="299">Type</text><text x="590" y="299">Category</text><text x="368" y="364">Duration</text></g>
-    <g fill="#efeff1" font-size="20" font-weight="600"><text x="176" y="234">Work Calendar · Apple</text><text x="722" y="234">Google Meet</text><text x="176" y="299">Meeting</text><text x="722" y="299">None</text><text x="72" y="364">Sep 8, 12:30 PM</text><text x="483" y="364">30 min</text></g>
-    <g fill="#9a9aa0" font-size="19"><text x="72" y="167">Meeting title</text><text x="72" y="429">Guests (type a name or email)</text><text x="72" y="494">Notes</text></g>
-    <g fill="#bbb" font-size="18"><text x="540" y="234">⌄</text><text x="1116" y="234">⌄</text><text x="540" y="299">⌄</text><text x="1116" y="299">⌄</text><text x="1116" y="364">⌄</text></g>
-    <rect x="54" y="531" width="18" height="18" rx="4" fill="#333"/><path d="M58 539l4 5 8-11" fill="none" stroke="#aaa" stroke-width="3"/><text x="84" y="547" fill="#fff" font-size="17" font-weight="600">Send calendar invitations</text>
-    <rect x="54" y="574" width="1092" height="54" rx="14" fill="url(#blue)"/><text x="516" y="609" fill="#fff" font-size="19" font-weight="750">▦  Create meeting</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Scheduling from TopNotch on a MacBook</title>
+  <desc id="desc">Full MacBook product mockup showing the TopNotch scheduling screen expanded directly from the physical display notch.</desc>
+  <defs>
+    <linearGradient id="scene" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080e17"/><stop offset=".54" stop-color="#151a23"/><stop offset="1" stop-color="#040608"/></linearGradient>
+    <radialGradient id="ambient" cx="52%" cy="23%" r="66%"><stop stop-color="#168ff4" stop-opacity=".22"/><stop offset="1" stop-color="#168ff4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#113858"/><stop offset=".4" stop-color="#197d99"/><stop offset=".72" stop-color="#234477"/><stop offset="1" stop-color="#11182c"/></linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8eaed"/><stop offset=".18" stop-color="#adb2b9"/><stop offset="1" stop-color="#4c5056"/></linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dfe2e6"/><stop offset=".24" stop-color="#9da2a9"/><stop offset="1" stop-color="#3f4349"/></linearGradient>
+    <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#168ff4"/><stop offset="1" stop-color="#2879ea"/></linearGradient>
+    <clipPath id="screenClip"><rect x="174" y="102" width="1252" height="690" rx="17"/></clipPath>
+    <filter id="deviceShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="28" stdDeviation="35" flood-color="#000" flood-opacity=".72"/></filter>
+    <filter id="panelShadow" x="-25%" y="-20%" width="150%" height="165%"><feDropShadow dy="18" stdDeviation="20" flood-color="#000" flood-opacity=".66"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#scene)"/><rect width="1600" height="1000" fill="url(#ambient)"/>
+  <ellipse cx="800" cy="935" rx="650" ry="35" fill="#000" opacity=".65" filter="url(#blur)"/>
+  <g filter="url(#deviceShadow)">
+    <rect x="118" y="43" width="1364" height="800" rx="43" fill="url(#lid)"/><rect x="139" y="64" width="1322" height="758" rx="32" fill="#07080a"/><rect x="150" y="75" width="1300" height="736" rx="25" fill="#111216"/>
+    <circle cx="800" cy="85" r="4" fill="#263747"/><circle cx="800" cy="85" r="1.4" fill="#65c3f5" opacity=".58"/>
+    <g clip-path="url(#screenClip)">
+      <rect x="174" y="102" width="1252" height="690" fill="url(#wallpaper)"/><circle cx="1140" cy="226" r="350" fill="#31bacc" opacity=".2"/><circle cx="280" cy="700" r="420" fill="#6548bb" opacity=".18"/>
+      <path d="M174 563c223-185 426-160 604-18 205 164 383 158 648-62v309H174Z" fill="#07131f" opacity=".71"/>
+      <rect x="174" y="102" width="1252" height="34" fill="#eef6fa" fill-opacity=".82"/>
+      <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#111319" font-size="12" font-weight="650"><text x="194" y="124">●</text><text x="220" y="124">Finder</text><text x="270" y="124">File</text><text x="304" y="124">Edit</text><text x="339" y="124">View</text><text x="379" y="124">Go</text><text x="409" y="124">Window</text><text x="462" y="124">Help</text></g><text x="1404" y="124" fill="#111319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" text-anchor="end">Wed Sep 9   12:34 AM</text>
+
+      <g filter="url(#panelShadow)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+        <path d="M474 102h652v512c0 22-18 40-40 40H514c-22 0-40-18-40-40Z" fill="#050505"/>
+        <text x="503" y="160" fill="#fff" font-size="18">‹</text><text x="528" y="160" fill="#fff" font-size="18" font-weight="720">Schedule meeting</text>
+        <g fill="#111112" stroke="#353539" stroke-width="1"><rect x="502" y="184" width="596" height="40" rx="10"/><rect x="576" y="244" width="211" height="40" rx="10"/><rect x="881" y="244" width="217" height="40" rx="10"/><rect x="576" y="304" width="211" height="40" rx="10"/><rect x="881" y="304" width="217" height="40" rx="10"/><rect x="502" y="364" width="175" height="40" rx="10"/><rect x="754" y="364" width="344" height="40" rx="10"/><rect x="502" y="424" width="596" height="40" rx="10"/><rect x="502" y="484" width="596" height="40" rx="10"/></g>
+        <text x="520" y="210" fill="#8f8f95" font-size="13">Meeting title</text>
+        <g fill="#fff" font-size="12" font-weight="680"><text x="502" y="269">Calendar</text><text x="803" y="269">Video</text><text x="502" y="329">Type</text><text x="803" y="329">Category</text><text x="692" y="389">Duration</text></g>
+        <g fill="#eeeef1" font-size="12" font-weight="620"><text x="590" y="269">Work Calendar · Apple</text><text x="895" y="269">Google Meet</text><text x="590" y="329">Meeting</text><text x="895" y="329">Client</text><text x="518" y="389">Sep 9, 1:00 PM</text><text x="770" y="389">30 min</text></g>
+        <g fill="#aaaab0" font-size="12"><text x="769" y="269">⌄</text><text x="1080" y="269">⌄</text><text x="769" y="329">⌄</text><text x="1080" y="329">⌄</text><text x="1080" y="389">⌄</text><text x="520" y="449">Guests (type a name or email)</text><text x="520" y="509">Notes</text></g>
+        <rect x="502" y="544" width="14" height="14" rx="4" fill="#333337"/><path d="M505 550l4 4 7-9" fill="none" stroke="#b7b7bc" stroke-width="2.2"/><text x="526" y="556" fill="#fff" font-size="11" font-weight="620">Send calendar invitations</text>
+        <rect x="502" y="579" width="596" height="47" rx="13" fill="url(#blue)"/><text x="800" y="608" fill="#fff" font-size="13" font-weight="730" text-anchor="middle">▦  Create meeting</text>
+      </g>
+    </g>
+    <path d="M61 842h1478l-104 88c-13 11-32 17-51 17H216c-19 0-38-6-51-17Z" fill="url(#base)"/><path d="M61 842h1478l-23 18H84Z" fill="#eef0f2" opacity=".72"/><path d="M690 842h220c-4 17-17 25-36 25H726c-19 0-32-8-36-25Z" fill="#646970" opacity=".7"/><path d="M216 947h1168c-26 8-66 11-114 11H330c-48 0-88-3-114-11Z" fill="#181a1e"/>
   </g>
 </svg>
