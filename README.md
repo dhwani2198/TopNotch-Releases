@@ -5,6 +5,8 @@ I built TopNotch because I kept alt-tabbing away from whatever I was doing just 
 
 Apple Silicon · macOS 15+
 
+<img src="assets/topnotch-demo-mockup.png" alt="TopNotch running around the MacBook notch" width="100%" border="0">
+
 [**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
 One thing up front: this repo is releases and docs only. The app itself, the Swift, the backend, all of it lives in a private repo and isn’t open source right now. Ask me anything about how it works, I just can’t hand you the code.
