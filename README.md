@@ -5,7 +5,9 @@ I built TopNotch because I kept alt-tabbing away from whatever I was doing just 
 
 Apple Silicon · macOS 15+
 
-<img src="assets/topnotch-demo-mockup.png" alt="TopNotch running around the MacBook notch" width="100%" border="0">
+<picture>
+  <img src="assets/topnotch-demo-mockup.png" alt="TopNotch running around the MacBook notch" width="100%">
+</picture>
 
 [**Download TopNotch v1.0 →**](https://github.com/dhwani2198/TopNotch-Releases/releases/latest)
 
